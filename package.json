@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "https://stolarzwojciech1.github.io/Portfolio/index.html\r Stolarz Wojciech protfolio do IT",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "ent": "^0.1.0",
+    "lodash": "^2.3.0",
+    "moment": "^2.4.0",
+    "portfolio": "^0.1.0",
+    "sax": "^1.4.3",
+    "string": "^1.7.0",
+    "xml2js": "^0.4.23",
+    "xmlbuilder": "^11.0.1"
+  },
+  "devDependencies": {},
+
+  
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stolarzwojciech1/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stolarzwojciech1/Portfolio/issues"
+  },
+  "homepage": "https://github.com/stolarzwojciech1/Portfolio#readme"
+}

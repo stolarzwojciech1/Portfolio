@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="/Images/1000007001.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="js/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+
+
+
+    
     <title>Wojciech Stolarz</title>
 </head>
-<body>
-    <h1><p>Nazywam się Wojciech Stolarz. Urodziłem się 1990 roku. Ukończyłem politechnikę Wrocławską w 2017
+<body  class="conteinerfirst">
+
+        <ul class="navigation__list">
+
+            <li class="navigation__item"><a class="navigation__link" href="#pierwsza_sekcja">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#druga_sekcja">Tabelka z ocenami</a></li>
+            <li class="navigation__item"> <a class="navigation__link navigation__link--three" href="#trzecia_sekcja">Trzecia sekcja</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#czwarta_sekcja">Zdjęcia</a></li>
+             <li class="navigation__item"><a class="navigation__link" href="#piata_sekcja">Literatura</a></li>
+              <li class="navigation__item"><a class="navigation__link" href="#szosta_sekcja">Stopka</a></li>
+        </ul>
+    <div id="pierwsza_sekcja" class="conteiner1">
+         <img class="img" src="/Images/Stolarz Wojciech.jpg" alt="Ramię robota 6DOF">
+        <p>Nazywam się Wojciech Stolarz. Urodziłem się 1990 roku. Ukończyłem politechnikę Wrocławską w 201
+
          roku na stopniu Inżyniera
     Zarządzania i Inżynierii Produkcji. Na codzień uczę się elektroniki i programowania. 
     Aktualnie pracuję nad frezarką wieloosiową, prostym kalkulatorem 
@@ -16,7 +46,7 @@
     projektach.</p>
     <p> Poza tym spaceruję i chodzę na siłownie. Lubie gotować i jestem specjalistą od sphagetii bolonesse i kurczaka 
     w miodzie z sezamem.</p>   
-    <ul>Programowanie:
+    <ul id="druga_sekcja" class="programowanie" >Programowanie:
         <li>C - początki</li>
         <li>Python - początki</li>
         <li>React</li>
@@ -34,8 +64,8 @@
         <li>Trello</li>
         <LI>FIgma</LI>
     </ul>
-    </h1>
-    <h2>Kontakt:<br>Tel. +48 666 555 153<br>Mail: stolarzwojciech1@gmail.com</h2>
+</div>
+    <div id="trzecia_sekcja" class="conteiner2">Kontakt:<br>Tel. +48 666 555 153<br>Mail: stolarzwojciech1@gmail.com</h2>
     
     <img height="200px" src="/Images/1000006920.jpg" alt="Małe CMOS-y">
     <img height="200px" src="/Images/1000006924.jpg" alt="Lutowanie CMOS do SOT23">
@@ -54,8 +84,8 @@
     <img height="200px" src="/Images/20251222_133535.jpg" alt="Gotowa płytka do lutowania">
     <img height="200px" src="/Images/20251222_134132.jpg" alt="Trzecie ramie i płytka prototypowa z NAND">
     <img height="200px" src="/Images/20251228_194805.jpg" alt="Ramię robota 6DOF"><br><br>
-    
-<h3>Książki:</h3>>
+    </div>
+<div id="czwarta_sekcja"  class="conteiner3">Książki:</h3>>
 <table>
     
         <tr>
@@ -105,6 +135,11 @@
                 <th>Jason Beaird</th>
                  <th>W trakcie</th>
             </tr>
+                  <tr>
+                <th>Django 5</th>
+                <th>Antonio Melé</th>
+                 <th>W trakcie</th>
+            </tr>
              <tr>
                 <th>REACT I REDUX</th>
                 <th>Kirupa Chinnathambi</th>
@@ -131,7 +166,8 @@
 
    
 
-<h3>
+</div>
+<div id="piata_sekcja" class="conteiner4">
 Kursy w trakcie realizacji:<br><br>
 <b>WWW.YOUCODE.PL</b> <br>
 Frontend Developer od podstaw <br><br>
@@ -143,7 +179,12 @@ Kurs Tworzenia Stron WWW w HTML i CSS od Podstaw do Eksperta<br>
 JavaScript od Podstaw do Eksperta<br>
 
 
-</h3>
+</div>
 
+<div id="szosta_sekcja" class="footer">
+
+    &copy; 2026 Wojciech Stolarz
+
+</div>
 </body>
-</html>llll
+</html>
