@@ -87,3 +87,13 @@ z-index: 1000;
  color:rgb(26, 26, 19);
  padding-top: 80px;
 }
+
+@media screen and (max-width: 200px) {
+  /* Style dla ekranów o szerokości do 600px */
+  body {
+    background-color: rgb(8, 9, 9);
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
