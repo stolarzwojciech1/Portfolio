@@ -21,6 +21,7 @@
 
     background-image: url('./20260116_215249.jpg');
 background-size: cover;
+
 }
 
 .img{
@@ -72,7 +73,6 @@ padding-top: 80px;
     list-style: none;
     display: flex;
     gap: 20px;
-      margin-bottom: 0px;
   position: fixed;
 top: 0;
 z-index: 1000; 
@@ -82,10 +82,24 @@ z-index: 1000;
  margin-bottom: 100px;
 }
 
+#druga_sekcja { 
+   scroll-margin-top: 150px;
+    position:static;
+    top: 500px;
+    left: 20px;
+    z-index: 10;
+
+ }
+
 .programowanie{
     font-family: "Google Sans Flex";
  color:rgb(26, 26, 19);
- padding-top: 80px;
+ padding-top: 110px;
+}
+
+.lista{
+
+
 }
 
 @media screen and (max-width: 200px) {
